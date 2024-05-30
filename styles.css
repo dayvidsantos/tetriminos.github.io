@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/88/66/b2/8866b25a23afb5185612095ffc57eca3.gif');}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    z-index: 1000;
+    background-color: #222;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #555;
+    
+}
+
+.svg-container {
+    position: absolute;
+    right: 0;
+}
+
+.svg-link {
+    display: flex; 
+    margin-left: -25%;
+}
+
+.svg-link a {
+    margin-right: 10px; 
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+}
+
+.tetris-section, .play-section, .about-section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #555;
+    box-shadow: 0 0 10px #222;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #00ff00;
+    text-shadow: 1px 1px #000;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #222;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 4px solid #555;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.tetris-game {
+    width: 300px;
+    height: 300px !important ;
+    background-color: #000;
+    border: 4px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffcc00;
+    margin: 0 auto;
+    text-shadow: 1px 1px #000;
+}
+
+#score {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 10px;
+}
